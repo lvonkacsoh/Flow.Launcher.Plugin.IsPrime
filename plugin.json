@@ -1,0 +1,12 @@
+{
+    "ID": "b9aaddfa36a948f384b31b4fb6186861",
+    "ActionKeyword": "isPrime",
+    "Name": "isPrime",
+    "Description": "Checks if the given arguments are prime numbers",
+    "Author": "laszlord",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/lvonkacsoh/flow-plugin-isPrime",
+    "IcoPath": "assets\\icon.png",
+    "ExecuteFileName": "main.py"
+}
