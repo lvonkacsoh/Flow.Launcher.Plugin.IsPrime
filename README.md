@@ -9,25 +9,28 @@ A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my ori
 
 Checks if the given integers are prime numbers.
 
-The screenshot shows all relevant edge cases. In case you are still unsure about what integers are consider consulting your favourite math tutor.
+The screenshot shows all relevant edge cases.
+In case you are still unsure about what integers are consider consulting your favourite math tutor.
 
 
 ## Requirements
 
-To use Python Plugins within flow you'll need Python 3.5 or later installed on your System.
-You also may need to select your Python installation directory in the Flow Launcher Settings.
+To use Python plugins within Flow you'll need Python 3.5 or later installed on your system.
+You also may need to select your Python installation directory in the Flow Launcher settings.
 As of v1.8, Flow Launcher should take care of the installation of Python for you if it is not on your system.
 
 
 ### Installing
 
-This plugin has not been officially added to the Flow Launcher Plugins yet!
-However you can manually add it.
+The Plugin has been officially added to the supported list of plugins. 
+Use `pm install isPrime` to install.
+
+However you can also manually add it.
 
 
 ### Manual
 
-Add the plugins folder to %APPDATA%\Roaming\FlowLauncher\Plugins\ and run the Flow command `reload plugin data`.
+Add the plugins folder to %APPDATA%\Roaming\FlowLauncher\Plugins\ and run the Flow command `restart Flow Launcher`.
 
 
 ### Python Package Requirements
