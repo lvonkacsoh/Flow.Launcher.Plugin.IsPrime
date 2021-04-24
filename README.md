@@ -8,6 +8,7 @@ A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my ori
 ## About
 
 Checks if the given integers are prime numbers.
+If the number is not a prime it tells you by which other number it can be devided.
 
 The screenshot shows all relevant edge cases.
 In case you are still unsure about what integers are consider consulting your favourite math tutor.
@@ -49,6 +50,18 @@ The easiest way to install it is to open a CLI like Powershell, navigate into th
 | Keyword                                                          | Description                                 |
 | ---------------------------------------------------------------- | ------------------------------------------- |
 | `isPrime {number_0} {number_1} {number_N}` | check if the given values are prime numbers |
+
+Floating point numbers and text are both treated as invalid since they're no integers.
+Checking if 3.14 or "pizza" is prime seems kind of nonsense to me.
+
+
+## Changelog
+
+- v1.0 
+    + initial wox port
+- v1.1
+    + add an info message by which number the given integer can be devided
+    + small code cleanup
 
 
 ## Problems, errors and feature requests
