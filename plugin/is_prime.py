@@ -7,7 +7,7 @@ class Main(FlowLauncher):
     MSG_IS_PRIME = "{} is a prime".format(PLACEHOLDER_NUMBER)
     MSG_IS_NO_PRIME = "{} is not a prime".format(PLACEHOLDER_NUMBER)
     MSG_NUMBER_EVEN = "Because it's an even number."
-    MSG_NUMBER_DIVISABLE_BY = "Because it can be devided by [{}]".format(
+    MSG_NUMBER_DIVISABLE_BY = "Because it can be divided by [{}]".format(
         PLACEHOLDER_NUMBER)
 
     messages = []

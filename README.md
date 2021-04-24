@@ -8,7 +8,7 @@ A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my ori
 ## About
 
 Checks if the given integers are prime numbers.
-If the number is not a prime it tells you by which other number it can be devided.
+If the number is not a prime it tells you by which other number it can be divided.
 
 The screenshot shows all relevant edge cases.
 In case you are still unsure about what integers are consider consulting your favourite math tutor.
@@ -60,7 +60,7 @@ Checking if 3.14 or "pizza" is prime seems kind of nonsense to me.
 - v1.0 
     + initial wox port
 - v1.1
-    + add an info message by which number the given integer can be devided
+    + add an info message by which number the given integer can be divided
     + small code cleanup
 
 
