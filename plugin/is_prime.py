@@ -20,7 +20,7 @@ class Main(FlowLauncher):
         })
 
     def isPrime(self, number: int):
-        if number % 2 == 0:
+        if number > 2 and number % 2 == 0:
             return {"isPrime": False, "message": self.MSG_NUMBER_EVEN}
         # start at 3 and only check odd number up to sqrt(n)+1
         for i in range(3, int(number**0.5)+1, 2):
