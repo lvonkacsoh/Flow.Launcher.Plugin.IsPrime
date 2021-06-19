@@ -36,13 +36,17 @@ Add the plugins folder to %APPDATA%\Roaming\FlowLauncher\Plugins\ and run the Fl
 
 ### Python Package Requirements
 
+This plugin automatically packs the required packages during release so for normal usage in Flow, no additional actions are needed.
+
+If you would like to manually install the packages:
+
 This plugin depends on the python flowlauncher package.
 
 > Without this package installed in your python environment the plugin wont work!
 
 The easiest way to install it is to open a CLI like Powershell, navigate into the plugins folder and run the following command:
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt -t ./lib`
 
 
 ## Usage
