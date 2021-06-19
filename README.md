@@ -46,7 +46,7 @@ This plugin depends on the python flowlauncher package.
 
 The easiest way to install it is to open a CLI like Powershell, navigate into the plugins folder and run the following command:
 
-`pip install -r requirements.txt`
+`pip install -r requirements.txt -t ./lib`
 
 
 ## Usage
