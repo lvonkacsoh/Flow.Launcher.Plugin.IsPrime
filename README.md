@@ -1,6 +1,6 @@
 # IsPrime (Flow.Launcher.Plugin.IsPrime)
 
-A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my original wox plugin [wox-plugin-isPrime](https://github.com/lvonkacsoh/wox-plugin-isPrime).
+A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my original [wox-plugin-isPrime](https://github.com/lvonkacsoh/wox-plugin-isPrime).
 
 ![screenshot](assets/isPrime_screenshot.png)
 
@@ -8,9 +8,9 @@ A [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) port of my ori
 ## About
 
 Checks if the given integers are prime numbers.
-If the number is not a prime it tells you by which other number it can be divided.
+If the number is not a prime it tells you by which numbers it can be devided.
+Due to space limitations only up to eleven factors can be displayed.
 
-The screenshot shows all relevant edge cases.
 In case you are still unsure about what integers are consider consulting your favourite math tutor.
 
 
@@ -56,16 +56,25 @@ The easiest way to install it is to open a CLI like Powershell, navigate into th
 | `isPrime {number_0} {number_1} {number_N}` | check if the given values are prime numbers |
 
 Floating point numbers and text are both treated as invalid since they're no integers.
-Checking if 3.14 or "pizza" is prime seems kind of nonsense to me.
+Negative numbers are integers but will be treated invalid nonetheless.
+Checking if -25, 3.14 or "pizza" is prime seems kind of nonsense to me.
 
 
 ## Changelog
 
 - v1.0 
     + initial wox port
-- v1.1
+- v1.1 (additional informations) 
     + add an info message by which number the given integer can be divided
     + small code cleanup
+- v1.2 (Flow)
+    + add plugin to the automatic Flow workflow
+- v1.3 (improvements on the algorithm)
+    + two (2) is now treated as a prime, as it should be
+    + display up to eleven (11) factors instead of one
+    + treat negative numbers as invalid as well
+    + small adjustments on displayed messages
+    + added a small easteregg
 
 
 ## Problems, errors and feature requests
