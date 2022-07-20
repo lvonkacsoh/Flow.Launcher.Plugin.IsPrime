@@ -26,6 +26,8 @@ class Main(FlowLauncher):
         })
 
     def isPrime(self, number: int):
+        if number == 1:
+            return {"isPrime": False, "message": "One isn't prime!"}
         if number > self.LOW_PRIME_THRESHOLD:
             if number % 2 == 0:
                 return {"isPrime": False, "message": self.MSG_NUMBER_EVEN}
