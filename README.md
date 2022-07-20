@@ -51,8 +51,8 @@ The easiest way to install it is to open a CLI like Powershell, navigate into th
 
 ## Usage
 
-| Keyword                                                          | Description                                 |
-| ---------------------------------------------------------------- | ------------------------------------------- |
+| Keyword                                    | Description                                 |
+| ------------------------------------------ | ------------------------------------------- |
 | `isPrime {number_0} {number_1} {number_N}` | check if the given values are prime numbers |
 
 Floating point numbers and text are both treated as invalid since they're no integers.
@@ -75,7 +75,9 @@ Checking if -25, 3.14 or "pizza" is prime seems kind of nonsense to me.
     + treat negative numbers as invalid as well
     + small adjustments on displayed messages
     + added a small easteregg
-
+- v1.4 (Clean-Up)
+    + Refactored the code
+    + Excluded one (1) from prime check. Yeh, don't know either why it took me so long to add this one.
 
 ## Problems, errors and feature requests
 
