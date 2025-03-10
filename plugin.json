@@ -6,7 +6,7 @@
     "Author": "lvonkacsoh",
     "Version": "1.4.0",
     "Language": "python",
-    "Website": "https://github.com/lvonkacsoh/flow-plugin-isPrime",
+    "Website": "https://github.com/lvonkacsoh/Flow.Launcher.Plugin.IsPrime",
     "IcoPath": "assets\\icon.png",
     "ExecuteFileName": "main.py"
 }
